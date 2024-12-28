@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta charset="UTF-8">
+    <title>Greatings |</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="me.png">
+</head>
+<body>
+    <p>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div> 
+    </p>
+    <p>
+    <div class="snow">❄️</div>
+    </p>
+   
+    <center><div class="rectangle"></div></center>
+   <br>
+   <p class="flower">🎄 Season Greatings 🎄</p>
+   <p>
+   
+   </p>
+   <br>
+   <p class="note">
+  <big><b>Warmest Wishes for a Joyous Christmas and New Year!🎉</b></big>
+<br>
+&nbsp &nbsp As the year comes to a close, I want to take a moment to express my heartfelt gratitude and appreciation for all of you - my dear friends and family. Your love, support, and presence in my life mean the world to me.
+<br>
+&nbsp As we celebrate the magic of Christmas, I hope you're surrounded by joy, laughter, and all your favorite traditions. May this special time of year bring you peace, happiness, and time with loved ones.
+<br>
+&nbsp As we look ahead to the New Year, I wish you all a bright and beautiful future filled with hope, promise, and endless possibilities. May your dreams and aspirations take shape, and may you be blessed with good health, happiness, and fulfillment.
+<br>
+Thank you for being a part of my life. I'm honored to share in the joys and celebrations of the season with all of you.
+<br>
+<b>Wishing you a very Merry Christmas and a Happy, Healthy, and Prosperous New Year!</b>
+<br>
+<i>With love and appreciation🎁,</i>
+<br><br>
+I<a>z</a>ic✨
+   </p>
+</body>
+
+</html>
+
+<style>
+    body{
+      text-align: center; 
+     background-color: #aab3cc77;
+    
+    }
+    
+    body:hover{
+        
+     background: linear-gradient(135deg, #df131337, #36e90033, #0063e933 )       
+    }
+
+    .rectangle{
+        width: 120px;
+        height: 90px;
+        border: 1px solid azure;
+        border-radius: 10px 20px;
+        box-shadow: 1px 2px 3px 4px #769feca2;   
+        cursor: pointer; 
+        background-image: url(cap.png);
+        background-size: cover;        
+     }
+    
+    .rectangle:hover::after{
+        content: "I z i c✨";
+        border: 1px dashed #b8d4dd;
+        font-family: monospace; 
+        padding: 5px;
+ }
+
+   .flower{
+        font-family: cursive;
+        font-size: 25px;
+        color: azure;
+        text-shadow: 
+        0 0 10px cyan,
+        0 0 20px blue,
+        0 0 40px cyan,
+        0 0 80px green;
+       transition: 2s ease;
+       animation: flow  5s infinite;
+ }
+ @keyframes flow{
+     0%{
+         transform: scale(1,1);
+      
+     }
+     50%{
+         opecity: 0.5;
+         
+     }
+     100%{
+         transform: scale(1.5);
+         opecity: 0;
+      
+     }
+ }
+    
+   
+   .snowflake{
+   float: right;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  animation: snowfall 10s linear infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+ 
+.snowflake:nth-child(1) {
+  animation-delay: 0s;
+}
+.snowflake:nth-child(2) {
+  animation-delay: 2s;
+}
+.snowflake:nth-child(3) {
+  animation-delay: 4s;
+}
+.snowflake:nth-child(4) {
+  animation-delay: 6s;
+}
+.snowflake:nth-child(5) {
+  animation-delay: 8s;
+}
+
+  .snow {  
+   float: left;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  animation: snowfal 10s linear infinite;
+}
+
+@keyframes snowfal {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+ 
+.note{
+    font-family: cursive;
+    font-size: 20px;
+}  
+
+
+a{
+    
+  font-family:  'Courier New', Courier, monospace;
+}
+
+ 
+</style>
+ 
